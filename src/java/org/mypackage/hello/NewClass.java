@@ -9,8 +9,10 @@ package org.mypackage.hello;
  * @author krishna
  */
 public class NewClass {
-   private int num;
-private int hum;
+
+    private int num;
+    private int hum;
+
     public int getNum() {
         return num;
     }
@@ -26,5 +28,4 @@ private int hum;
     public void setHum(int hum) {
         this.hum = hum;
     }
-   
 }
