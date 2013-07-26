@@ -24,7 +24,7 @@ import javax.servlet.annotation.WebServlet;
     urlPatterns={"/servletConfigDemo"},
     initParams ={
         @WebInitParam(name="admin",value="Harry Potter"),
-        @WebInitParam(name="email",value="admin@hapo.com")
+        @WebInitParam(name="email",value="admin@sakil.com")
     }
 )
 public class ServletConfigDemoServlet implements Servlet{
