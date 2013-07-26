@@ -10,13 +10,21 @@ package org.mypackage.hello;
  */
 public class NewClass {
    private int num;
-
+private int hum;
     public int getNum() {
         return num;
     }
 
     public void setNum(int num) {
         this.num = num;
+    }
+
+    public int getHum() {
+        return hum;
+    }
+
+    public void setHum(int hum) {
+        this.hum = hum;
     }
    
 }
