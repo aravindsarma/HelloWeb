@@ -9,14 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Login Page</title>
     </head>
     <body>
-        <h1>Entry Form</h1>
+        <h1>Login Form</h1>
 
-        <form name="Name Input Form" action="response.jsp">
-            Enter your Name:
-            <input type="text" name="name" />
+        <form name="Login Page" action="response.jsp">
+            Enter your username:
+            <input type="text" name="userId" />
+            <br />
+            Enter your password:
+            <input type="password" name="password" />
+            <br />
             <input type="submit" value="OK" />
         </form>
     </body>
